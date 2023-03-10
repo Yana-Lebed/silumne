@@ -1,0 +1,100 @@
+:root {
+  --primary-color: #fd746c;
+  --secondary-color: #928dab;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  margin: 60px auto;
+  max-width: 800px;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  display: block;
+  font-size: 48px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.nav-buttons {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.nav-buttons a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.mymail {
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.aboutlink {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.homepage-link {
+  text-align: center;
+  display: block;
+  margin-bottom: 50px;
+  color: var(--primary-color);
+}
+.mylink {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 28px;
+  color: var(--primary-color);
+}
+.story {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0;
+}
+
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.mylink :hover {
+  text-decoration: underline;
+}
